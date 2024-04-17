@@ -1,14 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>conceptos basicos js
+
+    <script src="/conceptosBasicos.js" defer></script>
+    <script src="/scripts/practicaConceptos.js" defer type="text/JavaScript"></script>
+    
+<!-- toca siempre escribir la palabra defer que es la que permite que cargue todo el html, antes de ejecutar JS y eso va a evitar errores.-->
+
+<!---->
 </head>
 <body>
-    <h1>Conceptos basicos
 
-    </h1>
-    <h2>De JavaScript</h2>
+    <header>
+        <h1>Conceptos basicos
+
+        </h1>
+        <h2>De JavaScript</h2>
+
+    </header>
+
+    <main>
+<p>Implementar los conceptos de sitios web dinámicos con JavaScript: </p>
+
+<ol>
+<li>MANEJO DEL DOM</li>
+<LI>CONDICIONALES</LI>
+<LI>CICLOS</LI>
+</ol>
+
+<!-- Seccion para el promer ejercicio -> ejercicio de DOM y condicionales -->
+
+<section>
+    <h3>Ejercicio de DOM y condicionales </h3>
+<!--que es lo que quiero hacer con este jercic.-->
+<p>Preguntar al usuario su edad y mostrar en pantalla si es mayor o menor de edad</p>
+
+<div>
+
+<label>¿Cual es su edad?</label>
+<!--label, es el que hace que aparezca la pregunta antes del rectangulo donde el usuario coloca la edad-->
+<input type="number" id="edadInput" 
+placeholder="Ingrese su edad aqui" 
+
+
+-->
+<button onclick="verificarEdad()">Verificar</button>
+
+<p id="mensaje"></p>
+
+<!--DOM es Document Object Model-->
+<!--id es un identificador unico, que podamos llevar un elemento de html a nuestro JS-->
+
+</div>
+
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>todos los derechos reservados -> creado por Juan Carlos Gómez</p>
+    </footer>
+
+   
+<!-- la etiqueta script sirve para vincular nuestro archivo de JS en nuestro HTML, SE COLOCA ANTES DEL CIERRE DE BODY-->
+
 </body>
 </html>
